@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #eef5ff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.form-box {
+  height: 600px;
+  width: 940px;
+  background: #ffffff;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+.form .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form .container .form-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 5px 2px 24px 1px rgba(227, 233, 245, 0.2);
+  border-radius: 13px;
+  padding: 360px 0px;
+}
+.form-img {
+  margin: 16px;
+  height: 680.09px;
+  width: 319.27px;
+  background: url("../images/illus.png") no-repeat center / cover;
+  background-size: cover;
+}
+.form-img .main-step{
+    margin-top: 40px;
+    margin-left: 33px;
+}
+.form-img .main-step .step{
+    display: flex;
+    margin-bottom: 29px;
+}
+.form-img .main-step .step .step-circle{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEE1FF;
+    border: 2px solid #BEE1FF;
+}
+.form-img .main-step .step .step-circle.form-fill-1{
+    background:#BEE1FF;
+    color: #001C41;
+}
+.form-img .main-step .step .step-text h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.085em;
+    color: #B8B7B9;
+    margin-bottom: 1px;
+}
+.form-img .main-step .step .step-text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+}
+.form-content {
+  margin-right: 100px;
+  background-color: rgb(254, 253, 255);
+  width: 450px;
+}
+.form .container .form-box .form-content h2 {
+  margin-bottom: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #0b284f;
+}
+.form .container .form-box .form-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.03em;
+  color: #b8b7b9;
+  margin-bottom: 27px;
+}
+.form .container .form-box .form-content form {
+    display: flex;
+    flex-direction: column;
+}
+.form .container .form-box .form-content form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: #0b284f;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form .container .form-box .form-content form input {
+  box-sizing: border-box;
+  width: 450px;
+  height: 48px;
+  border: 1px solid #b8b7b9;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  padding-left: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #0b284f;
+}
+.form .container .form-box .form-content form input:hover {
+  border: 1px solid #483eff;
+}
+.form .container .form-box .form-content form input:focus {
+  outline: 1px solid #483eff;
+}
+.form .container .form-box .form-content form input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #b8b7b9;
+  margin-left: 15px;
+}
+.form .container .form-box .form-content form input:last-child {
+  margin-bottom: 0px;
+}
+.form .container .form-box .form-content form .form-btn {
+  width: 123px;
+  height: 48px;
+  background-color: #483eff;
+  display: inline-block;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: auto;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.skin{
+  display: flex !important;
+  flex-direction: row !important;
+  column-gap: 20px;
+}
+.skin label{
+  display: inline-block;
+  width: auto !important;
+  margin-bottom: 0 !important;
+}
+.skin input{
+  display: inline-block !important;
+  height: 15px !important;
+  width: 15px !important;
+  cursor: pointer;
+}
+.white, 
+.black {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.form .form-content p.output{
+  margin-top: 30px;
+  color: #0b284f !important;
+  font-size: 18px !important;
+  font-weight: 600;
+  height: 40px;
+  box-sizing: content-box;
+  padding: 15px 10px;
+  border: 1px solid #b8b7b9;
+}
+
+.sellected{
+  color: #483eff;
+}
+.wrong2{
+  color: #ff0101;
+}
+.wrong{
+  color: #e62222;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Marrage-Form</title>
+
+
+</head>
+<body>
+  <section class="form">
+    <div class="container">
+      <div class="form-box">
+        <div class="form-img">
+          <div class="main-step">
+            <div class="step">
+              <div class="step-circle form-fill-1">1</div>
+              <div class="step-text">
+                <h4>STEP 1</h4>
+                <h3>YOUR INFO</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-circle">2</div>
+              <div class="step-text">
+                <h4>STEP 2</h4>
+                <h3>SELECT</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-circle">3</div>
+              <div class="step-text">
+                <h4>STEP 3</h4>
+                <h3>CHOICE</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-circle">4</div>
+              <div class="step-text">
+                <h4>STEP 4</h4>
+                <h3>FINAL</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="form-content">
+          <h2>Personal info</h2>
+          <p>WARNING!!!--ONLY 18-40 YEARS MATURE GIRLS CAN APPLAY...</p>
+
+          <form action="">
+             <label for="">Enter Your Age :</label>
+             <input type="number" name="" id="age" placeholder="18-40" required>
+             <label for="">Amount Of Dowry(Lac) :</label>
+             <input type="number" name="" placeholder="Above 3 Lac" id="sallery" required>
+             <label for="">Enter Your Height(Feet) :</label>
+             <input type="number" name="" placeholder="5-6 Feet" id="height" required>
+             <label for="">Skin Color :</label>
+             <div class="skin">
+                <div class="white">
+                  <label for="skin">White</label>
+                  <input type="radio" id="skin1" name="skin" value="white">
+                </div>
+                <div class="black">
+                  <label for="skin">Black</label>
+                  <input type="radio" id="skin2" name="skin" value="black">
+                </div>
+            </div>
+            <button class="form-btn" id="btn" type="button">Next Step</button>
+          </form>
+
+          <p>Result :</p>
+          <p class="output" id="output">Here........................</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
